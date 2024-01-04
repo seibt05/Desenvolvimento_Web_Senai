@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Login - Loja de Games</title>
+  <link rel="stylesheet" href="login.css">
+  <script src="acionando.js" defer></script> <!-- Inclui o script JavaScript -->
+</head>
+<body>
+  <div class="login-container">
+    <h2>Já possui uma conta?</h2>
+    <form id="loginForm" action="processar_login.js" method="POST">
+      <input type="text" name="username" placeholder="Email ou CPF" required>
+      <input type="password" name="password" placeholder="Senha" required>
+      <button type="submit">Entrar</button>
+    </form>
+    <p>Ainda não tem uma conta? <a href="cadastro.html">Cadastre-se</a></p>
+  </div>
+</body>
+</html>
+
+
